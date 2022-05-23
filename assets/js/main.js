@@ -13,6 +13,7 @@ const encrypt = () => {
     let output = '';
 
     if (encoding_type.value == 'encrypt') {
+
         for (let i = 0; i < input.length; i++) {
             // console.log(input[i]);
             alphabet.map((el) => {
@@ -21,7 +22,7 @@ const encrypt = () => {
                     // console.log(alphabet.indexOf(el) + key);
                     if (alphabet.indexOf(el) + key < alphabet.length) {
                         output += alphabet[alphabet.indexOf(el) + key]
-                        console.log(output);
+                            // console.log(output);
                     } else {
                         output += alphabet[alphabet.indexOf(el) + key - alphabet.length];
                     }
@@ -46,4 +47,3 @@ const encrypt = () => {
     }
 
 }
-
