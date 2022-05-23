@@ -41,33 +41,9 @@ const encrypt = () => {
                     }
                     output_key.innerHTML = output.toUpperCase();
                 }
-
             })
-
-
         }
     }
 
 }
 
-// const decrypt = () => {
-//     let input = input_caesar.value.toLowerCase();
-//     let key = Number(input_key.value % 26);
-//     let output = '';
-//     for (let i = 0; i < input.length; i++) {
-//         alphabet.map((el) => {
-//             if (input[i] == el) {
-//                 if (alphabet.indexOf(el) - key >= 0) {
-//                     output += alphabet[alphabet.indexOf(el) - key]
-//                     console.log(output);
-//                 } else {
-//                     output += alphabet[alphabet.indexOf(el) - key + alphabet.length];
-//                 }
-//                 output_key.innerHTML = output.toUpperCase();
-//             }
-
-//         })
-
-
-//     }
-// }

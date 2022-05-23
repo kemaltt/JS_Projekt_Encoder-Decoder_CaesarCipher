@@ -37,6 +37,13 @@ form input[type="submit"] {
     border-radius: 20px;
 }
 
+form input[type="submit"]:active {
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 1rem;
+}
+
 p {
     text-align: center;
     color: tomato;
